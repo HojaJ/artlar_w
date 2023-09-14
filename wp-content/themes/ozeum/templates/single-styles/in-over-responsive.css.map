@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,0BAAoB;EAChB,wBAAwB;EAC3B,wFAAyF;IACxF,SAAS,EAAE,GAAG;IACd,SAAS,EAAE,GAAG;;;AAKhB,yBAAoB;EAChB,wBAAwB;EAC3B,sCAAuC;IACtC,aAAa,EAAE,GAAG;;;EAEnB,wFAAyF;IACxF,SAAS,EAAE,GAAG;IACd,SAAS,EAAE,GAAG",
+"sources": ["in-over-responsive.scss"],
+"names": [],
+"file": "in-over-responsive.css"
+}

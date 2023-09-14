@@ -1,0 +1,73 @@
+Version 1.2.2
+    Added:
+		- WP 6.0.2 compatibility
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+    Removed:
+    	- Gplus links
+
+Version 1.2.1
+    Added:
+		- WP 6.0 compatibility
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+Version 1.2.0.1
+	Fixed:
+		- Theme Options
+
+Version 1.2.0 
+	Added:
+		- New skin Art
+		
+	Fixed:
+		- Update plugins to their latest versions
+		- Improve theme styles
+		
+Version 1.1.1
+    Added:
+    - WP 5.8 compatibility
+    - PHP 8.0 compatibility
+
+Version 1.1.0
+	Added:
+		- WP 5.7.2 compatibility
+		- Homepage 8
+
+	Fixed:
+		- Update plugins to their latest versions
+		- Improve theme styles
+
+	Changed:
+		- Update demo data
+
+Version 1.0.5
+    Added:
+        - PHP 8 compatibility
+        - Slider Revolution, Essential Grid updated
+
+Version 1.0.4
+    Added:
+        - WP 5.5 compatibility
+        - RTL
+    Fixed:
+        - The Events Calendar 5.0+
+
+Version 1.0.3
+     - TRX Popup update
+
+Version 1.0.2
+	Fix:
+		- Themerex Addons vulnarability fixed
+		
+Version 1.0.1 
+	Added:
+		- New Home Page.
+
+Release – v.1.0 (1.70.3) - Plugin TRX Addons has been modified.
+						   1. Preloader fixed.
+						   2. Plugin Elegro Payment fixed.
+						   3. Elementor Parallax fixed.
+						   4. Team single fixed.

@@ -1,0 +1,80 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_xxl} {
+	/* Blog layout: Portfolio */
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info .post_title {
+		font-size: 18px;
+	}
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info:before,
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info:after {
+		top: 20px;
+		right: 20px;
+		bottom: 20px;
+		left: 20px;
+	}
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info .post_info_back {
+		padding: 35px;
+	}
+
+}
+
+@media #{$media_xl} {
+	/* Blog layout: Portfolio */
+
+	.post_layout_portfolio .post_featured.hover_border .post_info .post_title,
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info .post_title {
+		font-size: 20px;
+	}
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info:before,
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info:after {
+		top: 25px;
+		right: 25px;
+		bottom: 25px;
+		left: 25px;
+	}
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info .post_info_back {
+		padding: 50px;
+	}
+
+}
+
+@media #{$media_lg} {
+	/* Blog layout: Portfolio */
+	.post_layout_portfolio .post_featured.hover_border .post_info .post_title,
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info .post_title {
+		font-size: 18px;
+	}
+}
+
+@media #{$media_md} {
+	/* Blog layout: Portfolio */
+	.post-type-archive-cpt_portfolio .sc_portfolio_columns_wrap .trx_addons_column-1_3 {
+		width: 50%;
+	}
+}
+
+@media #{$media_sm} {
+	/* Blog layout: Portfolio */
+	[class*="blog_style_portfolio_"] .portfolio_wrap {
+		margin-bottom: -20px;
+	}
+	.post-type-archive-cpt_portfolio .sc_portfolio_columns_wrap.columns_padding_bottom {
+		margin-bottom: -20px;
+	}
+	.post-type-archive-cpt_portfolio .sc_portfolio_columns_wrap .trx_addons_column-1_3 {
+		width: 100%;
+	}
+
+}
+
+
+@media #{$media_xs} {
+	/* Blog layout: Portfolio */
+	.post_layout_portfolio .post_featured.hover_border .post_info .post_title,
+	.post_layout_portfolio_4 .post_featured.hover_border .post_info .post_title {
+		font-size: 16px;
+	}
+}
+

@@ -1,0 +1,34 @@
+/* Blog layout: Portfolio
+------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+[class*="blog_style_portfolio_"] .portfolio_wrap {
+	margin-bottom: -30px;
+}
+
+.post-type-archive-cpt_portfolio .sc_portfolio_columns_wrap.columns_padding_bottom {
+	margin-bottom: -30px;
+}
+
+
+.post_layout_portfolio .post_title {
+	margin: 1em 0 0.4em;
+}
+.post_layout_portfolio .post_featured {
+	margin-bottom:0;
+}
+.post_layout_portfolio .post_featured[class*="hover_"] {
+	display: block;
+}
+.post_layout_portfolio .post_featured img {
+	width: 100%;
+}
+.post_layout_portfolio .label_sticky {
+	top: -12px;
+	left: -12px;
+	right:auto;
+	@include rotate(135deg);
+}
+

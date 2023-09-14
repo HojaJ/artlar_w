@@ -1,0 +1,61 @@
+/* Blog layout: Classic 
+------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+[class*="blog_style_classic_"] .columns_wrap.columns_padding_bottom {
+	margin-bottom: -30px;
+}
+.posts_container.columns_wrap {
+	display:flex;
+	flex-wrap:wrap;
+}
+.posts_container.columns_wrap .post_layout_classic {
+	display:inline-block;
+	vertical-align:top;
+	@include box(100%, 100%);
+	@include border-box;
+}
+.post_layout_classic {
+	position:relative;
+}
+.post_layout_classic.sticky .post_wrapper {
+	padding: 1.6em 2em;
+}
+.post_layout_classic.sticky .post_featured {
+	margin-bottom: 0;
+}
+.post_layout_classic .post_featured[class*="hover_"] {
+	display: block;
+}
+.post_layout_classic .post_featured img {
+	width: 100%;
+}
+.post_layout_classic .post_header {
+	padding-top:0.02px;	  // Incapsulate margins inside the block without 'overflow: hidden'
+}
+.post_layout_classic .post_title {
+	@include font(1.5em, 1.3em);
+	margin: 0;
+}
+.post_layout_classic .post_title + .post_meta {
+	margin-top:0.7em;
+}
+.post_layout_classic blockquote {
+	margin:0 0 1.4em;
+}
+.post_layout_classic .post_header + .post_content {
+	padding-top: 1em;
+}
+.post_layout_classic.format-aside .post_content_inner + .post_meta,
+.post_layout_classic.format-link .post_content_inner + .post_meta,
+.post_layout_classic.format-status .post_content_inner + .post_meta {
+	margin-top:1em;
+}
+.post_layout_classic.format-audio .post_featured.without_thumb .post_audio:not(.with_iframe) {
+	padding: 2em 1em;
+}
+.post_layout_classic.format-audio .post_audio .mejs-controls .mejs-time {
+	display: none;
+}

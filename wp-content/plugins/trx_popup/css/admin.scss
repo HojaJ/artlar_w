@@ -1,0 +1,95 @@
+.trx_popup_options_form {
+    .trx_popup_options_title {
+        font-size: 22px;
+        line-height: 1.5em;
+        font-weight: 500;
+        margin: 1em 20px 0 0;
+        padding: 1em 0;
+    }
+    form {
+        padding: 3.5em;
+        border: 1px solid #dee0e3;
+        background-color: #fff;
+
+        h2 {
+            font-size: 16px;
+            line-height: 1.5em;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 0;
+            padding: 15px;
+            border: 1px solid #dee0e3 !important;
+            background-color: #ebeced;
+            transition: all ease 0.3s;
+
+            &:hover {
+                background-color: #dadada;
+            }
+        }
+        .form-table-wrap:not(:last-of-type) {
+            display: none;
+        }
+        table + h2 {
+            border-top: 1px solid #e7e9ec;
+            padding-top: 1em;
+            margin-top: 0.83em;
+        }
+        input[type="text"],
+        select {
+            width: 800px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        input[type="date"],
+        input[type="time"],
+        input[type="number"],
+        input[type="range"] {
+            width: 150px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        textarea {
+            width: 100%;
+        }
+        .submit {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        span:not(.mce-txt) {
+            display: block;
+            margin: 0;
+            font-size: 14px;
+            font-weight: 400;
+            color: #9099a2;
+            font-style: italic;
+
+            &.wp-media-buttons-icon {
+                display: inline-block;
+            }
+        }
+        .upload > img.hide {
+            display: none;
+        }
+        .range_slider_wrap {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .range_slider_min {
+                margin: 0 10px 0 0;
+            }
+            .range_slider_max {
+                margin: 0 0 0 10px;
+            }
+        }
+        .range_slider {
+            position: relative;
+            width: fit-content;
+
+            .range_slider_runner {
+                position: absolute;
+                top: -2em;
+            } 
+        } 
+    } 
+}

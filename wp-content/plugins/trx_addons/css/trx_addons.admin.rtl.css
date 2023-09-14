@@ -1,0 +1,365 @@
+/* RTL Importer */
+
+.trx_importer .trx_importer_sys_info {
+    float: left;
+}
+
+.trx_importer .trx_addons_tabs_section #trx_importer_progress {
+    width: 48%;
+    float: right;
+}
+.trx_importer_demo_set .trx_importer_demo_set_controls label:not(:last-child) {
+    border-left: 0;
+    border-right: none;
+}
+
+/* RTL Theme Panel */
+
+.trx_addons_theme_panel .trx_addons_tabs_section {
+    margin-left: 2em;
+    margin-right: 0;
+}
+.trx_addons_tabs_section .trx_addons_theme_panel_theme_active {
+    padding-left: 12em;
+    padding-right: 0;
+}
+#trx_addons_theme_panel_section_general .trx_addons_theme_panel_theme_active .trx_addons_theme_panel_buttons {
+    text-align: right;
+}
+
+.trx_addons_theme_panel .trx_addons_theme_panel_buttons .trx_addons_theme_panel_next_step,
+.trx_addons_theme_panel .trx_addons_theme_panel_buttons .trx_addons_theme_panel_prev_step {
+    float: left;
+    margin-right: 1em;
+    margin-left: 0;
+}
+
+.trx_addons_theme_panel_last_step.trx_addons_theme_panel_next_step.trx_addons_button_accent {
+    margin-right: 1em !important;
+}
+
+/*#trx_addons_theme_panel_section_plugins .trx_addons_theme_panel_next_step:after,
+#trx_addons_theme_panel_section_plugins .trx_addons_theme_panel_prev_step:before,
+#trx_addons_theme_panel_section_skins .trx_addons_theme_panel_next_step:after,
+#trx_addons_theme_panel_section_skins .trx_addons_theme_panel_prev_step:before  {
+    display: none;
+}*/
+
+.trx_addons_theme_panel_buttons .trx_addons_theme_panel_prev_step:before,
+#trx_addons_theme_panel_section_plugins .trx_addons_theme_panel_prev_step:before,
+#trx_addons_theme_panel_section_skins .trx_addons_theme_panel_prev_step:before,
+.trx_addons_theme_panel .trx_addons_theme_panel_buttons .trx_addons_theme_panel_prev_step:not(.trx_addons_button_accent):before {
+    content: '\e884';
+    margin-left: 0.4em !important;
+    margin-right: 0 !important;
+}
+
+.trx_addons_theme_panel .trx_addons_theme_panel_buttons .trx_addons_theme_panel_next_step:not(.trx_addons_button_accent):after {
+    content: '\e883';
+    margin-right: 0.4em !important;
+    margin-left: 0;
+}
+
+
+/*.trx_addons_theme_panel_buttons .trx_addons_theme_panel_next_step:after,
+#trx_addons_theme_panel_section_plugins .trx_addons_theme_panel_next_step:before,
+#trx_addons_theme_panel_section_skins .trx_addons_theme_panel_next_step:before {
+    content: '\e884';
+    margin-left: 0.4em !important;
+    margin-right: 0 !important;
+}*/
+
+.trx_addons_button.trx_addons_button_accent {
+    margin-right: 0 !important;
+}
+.trx_addons_button.trx_addons_button_accent:after {
+    display: none !important;
+}
+
+.trx_addons_theme_panel_featured_item .trx_addons_theme_panel_banners_item_link:after {
+    right: 0.3em;
+    left: auto;
+}
+.trx_addons_theme_panel_footer .trx_addons_iconed_block {
+    padding: 0 0 3em 4em;
+    text-align: right;
+}
+.trx_addons_iconed_block_icon, .trx_addons_iconed_block_image {
+    right: 0;
+    left: auto;
+}
+.trx_addons_iconed_block_inner {
+    padding-right: 3em;
+    padding-left: 0;
+}
+.trx_addons_theme_panel_footer .trx_addons_theme_panel_links_iconed {
+    margin-left: -4em;
+    margin-right: 0;
+}
+.trx_addons_image_block_footer .trx_addons_image_block_link_active {
+    padding: 7px 0 7px 4px;
+}
+.trx_addons_theme_panel_plugins_list_item_title {
+    padding-right: 14px;
+    padding-left: 0;
+}
+.trx_addons_theme_panel_plugins_list_item .trx_addons_theme_panel_plugins_list_item_status {
+    left: 0;
+    right: auto;
+    -webkit-border-radius: 0 0 3px 0;
+    -ms-border-radius: 0 0 3px 0;
+    border-radius: 0 0 3px 0;
+}
+.trx_addons_theme_panel_plugins_list_item_check {
+    float: left;
+    margin-left: 0;
+    margin-right: 1.5em;
+}
+
+.trx_addons_theme_panel_plugins_list_item > a[data-state="deactivate"] .trx_addons_theme_panel_plugins_list_item_check {
+    margin: 0;
+}
+
+/* RTL Admin */
+
+.ui-tabs .ui-tabs-nav li {
+    float: right!important;
+    margin: 0 0 1px .2em;
+}
+.trx_addons_info_box {
+    padding: 1.5em 3.5em 1.5em 1.5em;
+    border-right: 4px solid #00a0d2;
+    border-left: 0px solid #00a0d2;
+}
+.trx_addons_info_box:before {
+    right: 1.15em;
+    left: auto;
+}
+.trx_addons_theme_panel .trx_addons_theme_panel_section_form_field_checkbox input[type="checkbox"], .trx_importer_checkbox_label input[type="checkbox"], .trx_addons_options_item_checklist input[type="checkbox"], .trx_addons_options_item_checkbox input[type="checkbox"] {
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+
+.trx_addons_theme_panel .trx_addons_theme_panel_section_form_field_checkbox input[type="checkbox"]:before {
+    margin: 0 0 0 2px;
+}
+
+.trx_addons_theme_panel .trx_importer .trx_buttons {
+    text-align: right;
+}
+.trx_addons_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active {
+    border-right: 3px solid #11a0d2;
+    border-left: 0;
+}
+@media (min-width: 1024px) {
+    .trx_addons_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active > a.ui-tabs-anchor {
+        right: 1px;
+        padding-right: 11px;
+    }
+    .trx_addons_tabs_vertical > ul.ui-tabs-nav > li > a.ui-tabs-anchor {
+        padding-right: 15px;
+    }
+}
+.trx_addons_tabs > ul.ui-tabs-nav > li > a > i[class*="dashicons-"], .trx_addons_tabs > ul.ui-tabs-nav > li > a > i[class*="icon-"] {
+    margin: 0 0 0 0.35em;
+}
+
+/* RTL Options */
+
+.trx_addons_options_item_title {
+    text-align: right;
+}
+.trx_addons_options_title {
+    float: right;
+}
+.trx_addons_options_buttons {
+    float: left;
+}
+.trx_addons_options_header {
+    margin: 1em 0 0 20px;
+}
+
+@media (min-width: 601px) {
+    .trx_addons_options_header.sticky {
+        margin: 1em -20px 0 0;
+    }
+}
+
+
+.trx_addons_tabs:not(.no_tabs) .trx_addons_tabs_section {
+    border-right: 0;
+}
+
+.trx_addons_options_clone {
+    padding-right: 4em;
+    padding-left: 10em;
+}
+[class*="trx_addons_column-"] .trx_addons_options_item_title {
+    text-align: right;
+}
+.trx_addons_options_clone_control_add {
+    right: auto!important;
+    left: 54px!important;
+}
+.trx_addons_options_clone_control_delete {
+    right: auto!important;
+    left: 0!important;
+}
+[class*="trx_addons_column-"] .trx_addons_options_item_data {
+    text-align: right;
+}
+.trx_addons_options_item_data {
+    float: right;
+}
+
+/*  TRX Addons Admin Panel Buttons  */
+
+.trx_addons_options_item_radio .trx_addons_options_item_holder {
+    margin-right: 0;
+    margin-left: 0.5em;
+}
+.trx_addons_options_item_switch .trx_addons_options_item_holder_wrap {
+    left: auto;
+    right: 0;
+}
+.trx_addons_options_item_switch .trx_addons_options_item_holder {
+    margin-right: 0 !important;
+    margin-left: .5em;
+}
+.trx_addons_options_item_switch .trx_addons_options_item_holder_inner {
+    -webkit-transform: translateX(33px);
+    -ms-transform: translateX(33px);
+    transform: translateX(33px);
+}
+.trx_addons_options_item_switch .trx_addons_options_item_holder_on {
+    right: 6px;
+    left: auto;
+}
+.trx_addons_options_item_switch input:checked + .trx_addons_options_item_holder .trx_addons_options_item_holder_handle {
+    left: auto;
+    right: 19px;
+}
+.trx_addons_options_item_switch .trx_addons_options_item_holder_off {
+    right: auto;
+    left: 6px;
+}
+.trx_addons_options_item_switch .trx_addons_options_item_holder_handle {
+    left: auto;
+    right: 36px;
+}
+/*  ---------------  */
+
+.trx_addons_options_clone_control {
+    right: 0;
+    left: auto;
+}
+.trx_addons_options_item[class*="column-"] {
+    padding: 1.25em 0 1.25em 2em;
+}
+.trx_addons_list_icons.trx_addons_list_icons_dropdown {
+    left: auto!important;
+}
+.trx_addons_list_icons:not(.trx_addons_list_icons_inline):before {
+    right: 15px;
+    left: auto;
+}
+.trx_addons_button:before, form input[type="button"].trx_addons_button:before, form input[type="submit"].trx_addons_button:before {
+    margin-left: 0.3em;
+    margin-right: 0;
+}
+
+.trx_addons_theme_panel .trx_addons_tabs  .trx_addons_tabs_section {
+    margin-right: 0;
+}
+
+.trx_addons_tabs_section #trx_importer_progress {
+    float: right !important;
+    margin: 0 0 2em !important;
+}
+
+/*Importer*/
+
+.trx_importer .trx_importer_checkbox_label input[type="checkbox"]:before {
+    margin: 0;
+    width: 15px;
+}
+
+.trx_importer .trx_importer_sys_info table th {
+    text-align: right;
+}
+
+.trx_importer .trx_importer_sys_info .dashicons {
+    right: -1.3em;
+}
+
+.trx_importer .trx_importer_part_pages {
+    margin: 0 2em 1em 0em;
+}
+
+.trx_importer .trx_importer_advanced_settings_block {
+    padding-right: 0;
+    padding-left: 3em;
+}
+
+.trx_importer .trx_importer_sys_info_manual_title {
+    text-align: start;
+}
+
+.trx_addons_msgbox .trx_addons_msgbox_warning .trx_addons_msgbox_header {
+    padding: 1em 3.75em 1em 2em;
+}
+
+.trx_addons_msgbox .trx_addons_msgbox_warning .trx_addons_msgbox_icon {
+    left: auto;
+    right: 18px;
+}
+
+.trx_addons_msgbox .trx_addons_msgbox_warning .trx_addons_msgbox_close {
+    right: auto;
+    left: 0;
+}
+
+#trx_importer_progress tbody .import_progress_status {
+    padding-left: 20px;
+    padding-right: 0;
+    text-align: right;
+}
+
+.ozeum_options .ozeum_options_item[class*="column-"] {
+    padding: 1.25em 0 1.25em 2em;
+}
+
+.trx_addons_theme_panel .ozeum_options_buttons.trx_buttons {
+    text-align: right;
+}
+
+.trx_addons_theme_panel .trx_addons_theme_panel_recent_themes .trx_addons_theme_panel_section_recent_themes_category_selector {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.trx_addons_msgbox.trx_addons_msgbox_warning .trx_addons_msgbox_close {
+    right: auto;
+    left: 0;
+}
+
+.trx_addons_msgbox.trx_addons_msgbox_warning .trx_addons_msgbox_icon {
+    right: 18px;
+    left: auto;
+}
+
+.trx_addons_msgbox.trx_addons_msgbox_warning .trx_addons_msgbox_header {
+    padding: 1em 3.75em 1em 2em;
+}
+
+.trx_addons_theme_panel .trx_addons_tabs_section .trx_banners_section {
+    margin-left: 2em;
+}
+
+.notice, div.error, div.updated {
+    margin: 5px 2px 2px 20px !important;
+}
+
+.updated.eg-update-notice-wrap a {
+    float: left !important;
+}

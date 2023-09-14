@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,0BAAoB;EAChB,eAAe;EAElB,yCAAyC;EACzC;uFACsF;IAAE,MAAM,EAAE,cAAc;;EAC9G;wFACuF;IAAE,MAAM,EAAE,cAAc;;EAC/G;yFACwF;IAAE,MAAM,EAAE,cAAc;;EAChH;;;sFAGqF;IAAE,MAAM,EAAE,cAAc;;EAC7G;uFACsF;IAAE,MAAM,EAAE,cAAc;;EAE9G,yCAAyC;EACzC;sEACqE;IAAI,MAAM,EAAE,gBAAgB;;EACjG;uEACsE;IAAG,MAAM,EAAE,gBAAgB;;EACjG;wEACuE;IAAE,MAAM,EAAE,gBAAgB;;EACjG;;;qEAGoE;IAAI,MAAM,EAAE,gBAAgB;;EAChG;sEACqE;IAAI,MAAM,EAAE,gBAAgB",
+"sources": ["gutenberg.responsive.scss"],
+"names": [],
+"file": "gutenberg.responsive.css"
+}

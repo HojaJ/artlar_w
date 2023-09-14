@@ -1,0 +1,240 @@
+.trx_addons_options_item_title{
+	float: right;
+}
+#trx_addons_options_tabs.with_tabs .trx_addons_options_section {
+	margin-left: 2em;
+	margin-right: 0;
+}
+.trx_addons_options_item_info .trx_addons_options_item_title {
+	text-align: right;
+}
+.wpb_content_element > .wpb_element_wrapper > .wpb_element_title .vc_element-icon {
+	float: right!important;
+	margin-left: 10px;
+	margin-right: 0!important;
+}
+.ozeum_admin_notice .ozeum_hide_notice {
+	right: auto !important;
+	left: auto;
+}
+#trx_addons_options_form .ui-tabs .ui-tabs-nav li {
+	float: right;
+}
+.customize-control > label > label, .customize-control > div > label {
+	margin: 0 0 0 1em !important;
+}
+#customize-header-actions .customize-action-refresh {
+	left: 0 !important;
+	right: 60px;
+}
+.customize-control-info > div {
+	border-left: none !important;
+	border-right: 4px solid #1e8cbe;
+}
+.trx_addons_options_item_title {
+	margin: 0.3em 0 0.5em 0.5em !important;
+	padding-right: 0 !important;
+	padding-left: 20px;
+}
+.trx_addons_options_item_checkbox .trx_addons_options_item_label,
+.trx_addons_options_item_switch .trx_addons_options_item_label,
+.trx_addons_options_item_radio .trx_addons_options_item_label {
+	display: inline-block;
+}
+.trx_addons_options_item_field .trx_addons_options_item_label + .trx_addons_options_item_label {
+	margin-left: 0;
+	margin-right: 1em;
+}
+.ozeum_options_item_info {
+	border-left: none !important;
+}
+.ozeum_options_item_info .ozeum_options_item_title {
+	text-align: right !important;
+}
+[class*="ozeum_column-"] .ozeum_options_item_data,
+[class*="ozeum_column-"] .ozeum_options_item_title {
+	text-align: right !important;
+}
+.ozeum_options_item_title {
+	margin: 0.4em 0.5em 0.5em 0 !important;
+	padding-right: 0 !important;
+	padding-left: 20px;
+}
+.rtl .ozeum_range_slider_value {
+	margin-right: 0 !important;
+	margin-left: 3% !important;
+	text-align: right;
+}
+.ozeum_options_item_image .ozeum_media_selector,
+.ozeum_options_item_media .ozeum_media_selector,
+.ozeum_options_item_audio .ozeum_media_selector,
+.ozeum_options_item_video .ozeum_media_selector {
+	float: right;
+}
+.ozeum_options_section .ozeum_options_item_image .ozeum_media_selector {
+	float: none;
+}
+div.ui-accordion .ozeum_accordion_title.ui-accordion-header .ui-icon {
+	margin-right: 0 !important;
+	margin-left: 0.8em;
+}
+.ozeum_scheme_editor_row_cell_span label {
+	display: inline-block;
+}
+.ozeum_scheme_editor_type label + label {
+	margin-left: 0 !important;
+	margin-right: 1em;
+}
+.trx_addons_theme_panel_plugins_list_item_check {
+	margin-right: 0;
+	margin-left: 1.5em;
+}
+.trx_addons_theme_panel_plugins_list_item_info {
+	padding-left: 0;
+	padding-right: 1.5em;
+}
+.trx_addons_panel_wizard > ul > li > a:before {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+/* RTL */
+
+.ozeum_options_title {
+    float: right;
+}
+.ozeum_options_buttons {
+    float: left;
+}
+.ozeum_options_header {
+    margin: 1em 0 0 20px;
+}
+@media (min-width: 601px) {
+	.ozeum_options_header.sticky {
+		margin: 1em -20px 0 0;
+	}
+}
+.ozeum_options .ozeum_options_button:before {
+    margin: -1px 0 0 0.3em;
+}
+div.ozeum_tabs > ul.ui-tabs-nav > li > a > i[class*="dashicons-"], div.ozeum_tabs > ul.ui-tabs-nav > li > a > i[class*="icon-"] {
+    margin: 0 0 0 0.35em;
+}
+@media (min-width: 320px) {
+	div.ozeum_tabs_vertical > ul.ui-tabs-nav > li.ozeum_tabs_title_super:after {
+		content: '\e858';
+		left: 12px;
+		right: auto;
+	}
+}
+@media (min-width: 320px) {
+div.ozeum_tabs_vertical > ul.ui-tabs-nav > li.ozeum_tabs_title_super > a.ui-tabs-anchor {
+    padding-left: 2em;
+    padding-right: 13px;
+}
+}
+@media (min-width: 320px) {
+	div.ozeum_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active {
+		border-right: 3px solid #11a0d2;
+		border-left: 0;
+	}
+}
+div.ozeum_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active {
+	border-right: 3px solid #11a0d2;
+	border-left: 0;
+}
+@media (min-width: 1024px) {
+	div.ozeum_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active > a.ui-tabs-anchor {
+		right: 1px;
+		padding-right: 9px;
+	}
+	div.ozeum_tabs_vertical > ul.ui-tabs-nav > li > a.ui-tabs-anchor {
+		padding-right: 13px;
+	}
+}
+.ozeum_tabs_caption {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Tahoma","Helvetica Neue",sans-serif;
+}
+.ozeum_options_item_title {
+    margin: 0.4em 0 0.5em 0.5em !important;
+    padding-left: 20px !important;
+	padding-right: 0;
+}
+.ozeum_admin_notice .ozeum_notice_image {
+    float: right;
+    margin-left: 2em;
+    margin-right: 0;
+}
+.ozeum_admin_notice.ozeum_rate_notice .ozeum_notice_title:after {
+    margin-right: 0.5em;
+    margin-left: 0;
+}
+.ozeum_admin_notice .ozeum_hide_notice {
+    right: auto;
+    left: 1em;
+}
+.ozeum_admin_notice .button + .button {
+    margin-right: 0.3em;
+    margin-left: 0;
+}
+.ozeum_options_item_radio .ozeum_options_item_label {
+    margin: 0 0 0 1em;
+}
+.ozeum_options_item_radio .ozeum_options_item_holder, .ozeum_options input[type="radio"] + .ozeum_options_item_holder {
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+.ozeum_list_choice_item {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+div.ui-widget select {
+	line-height: 1.5;
+}
+/*  Themes Options Admin Panel Buttons  */
+
+.ozeum_options_item_switch .ozeum_options_item_holder_wrap {
+	left: auto;
+	right: 0;
+}
+.ozeum_options_item_switch .ozeum_options_item_holder {
+	margin-right: 0 !important;
+	margin-left: .5em;
+}
+.ozeum_options_item_switch .ozeum_options_item_holder_inner {
+	-webkit-transform: translateX(33px);
+	-ms-transform: translateX(33px);
+	transform: translateX(33px);
+}
+.ozeum_options_item_switch .ozeum_options_item_holder_on {
+	right: 6px;
+	left: auto;
+}
+.ozeum_options_item_switch input:checked + .ozeum_options_item_holder .ozeum_options_item_holder_handle {
+	left: auto;
+	right: 19px;
+}
+.ozeum_options_item_switch .ozeum_options_item_holder_off {
+	right: auto;
+	left: 6px;
+}
+.ozeum_options_item_switch .ozeum_options_item_holder_handle {
+	left: auto;
+	right: 36px;
+}
+.notice, div.error, div.updated {
+	margin: 5px 2px 2px 20px !important;
+}
+.updated.eg-update-notice-wrap a {
+	float: left !important;
+}
+.ozeum_options_item_checkbox input[type="checkbox"],
+.ozeum_options_item_checklist input[type="checkbox"] {
+	margin-right: 0;
+	margin-left: .5em;
+}
+.ozeum_options_item_checkbox input[type="checkbox"]:checked:before,
+.ozeum_options_item_checklist input[type="checkbox"]:checked:before {
+	margin: 0 0 0 2px;
+}

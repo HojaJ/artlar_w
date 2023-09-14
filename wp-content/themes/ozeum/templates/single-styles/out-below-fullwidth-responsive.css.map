@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,0BAAoB;EAChB,wBAAwB;EAC3B,oEAAqE;IACpE,WAAW,EAAE,GAAG;;;EAEjB,kDAAmD;IAClD,aAAa,EAAE,GAAG;;;EAEnB,kFAAmF;IAClF,MAAM,EAAE,KAAK;;;AAKf,yBAAoB;EACnB,wBAAwB;EACxB,kFAAmF;IAClF,MAAM,EAAE,KAAK;;;AAKf,yBAAoB;EAChB,wBAAwB;EAC3B,oEAAqE;IACpE,WAAW,EAAE,GAAG;;;EAEjB,kDAAmD;IAClD,aAAa,EAAE,GAAG",
+"sources": ["out-below-fullwidth-responsive.scss"],
+"names": [],
+"file": "out-below-fullwidth-responsive.css"
+}

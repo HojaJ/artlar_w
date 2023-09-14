@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,0BAAoB;EAChB,wBAAwB;EAC3B,2EAA4E;IAC3E,SAAS,EAAE,GAAG;IACd,SAAS,EAAE,GAAG;;;AAKhB,yBAAoB;EAChB,wBAAwB;EAC3B,6CAA8C;IAC7C,aAAa,EAAE,GAAG;;;EAEnB,2EAA4E;IAC3E,SAAS,EAAE,GAAG;IACd,SAAS,EAAE,GAAG",
+"sources": ["out-over-boxed-responsive.scss"],
+"names": [],
+"file": "out-over-boxed-responsive.css"
+}

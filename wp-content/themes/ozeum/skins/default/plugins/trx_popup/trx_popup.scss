@@ -1,0 +1,62 @@
+/* ThemeREX Popup
+------------------------------------------------------------------------------------ */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+
+
+.trx_popup {
+
+    &.topright,
+    &.topleft {
+        top: 180px;
+    }
+
+    .trx_popup_close {
+
+        &:before,
+        &:after {
+        }
+    }
+
+    .trx_popup_container {
+        width: 400px;
+        height: 332px;
+
+        .trx_popup_inner {
+
+            .trx_popup_subtitle {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .trx_popup_title {
+                font-size: 28px;
+                line-height: 1.2em;
+            }
+
+            .trx_popup_button {
+                font-size: 13px;
+            }
+
+            .trx_popup_title + .trx_popup_button{
+                margin-top: 1.5em;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .trx_popup.topleft {
+        top: 10px !important;
+    }
+    .trx_popup.topright {
+        top: 10px !important;
+    }
+    .trx_popup.bottomleft {
+        left: 10px !important;
+    }
+    .trx_popup.bottomright {
+        right: 10px !important;
+    }
+}

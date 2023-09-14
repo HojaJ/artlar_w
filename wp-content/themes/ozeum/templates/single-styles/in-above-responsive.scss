@@ -1,0 +1,10 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_xs} {
+    /* Single post header */
+	.single_style_in-above .post_content_wrap {
+		margin-bottom: 2em;
+	}
+}

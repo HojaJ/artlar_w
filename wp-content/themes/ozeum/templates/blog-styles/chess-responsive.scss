@@ -1,0 +1,256 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_xxl} {
+	/* Blog layout: Chess */
+	.post_layout_chess_2 .post_title {
+		font-size: 1.5rem;
+	}
+	.post_layout_chess_2 .post_content_inner {
+		display:none;
+	}
+	.post_layout_chess_2 .post_header + .post_content {
+		margin-top: 0;
+	}
+	.post_layout_chess_2.post_format_quote .post_content_inner,
+	.post_layout_chess_2.post_format_link .post_content_inner,
+	.post_layout_chess_2.post_format_aside .post_content_inner,
+	.post_layout_chess_2.post_format_status .post_content_inner {
+		display:block;
+	}
+
+	.post_layout_chess_2.post_format_link .post_content_inner,
+	.post_layout_chess_2.post_format_aside .post_content_inner,
+	.post_layout_chess_2.post_format_status .post_content_inner {
+		@include font(1.2em, 1.4em);
+	}
+	.post_layout_chess_3 .post_content_inner {
+		display:none;
+	}
+	.post_layout_chess_3 .post_header + .post_content {
+		margin-top: 0;
+	}
+
+	.post_layout_chess.post_layout_chess_3 .more-link {
+		display:none;
+	}
+}
+
+
+@media #{$media_xl} {
+	/* Blog layout: Chess */
+
+	.post_layout_chess_2 .post_title{
+		@include font(22px, 26px);
+	}
+	.post_layout_chess.post_layout_chess_2 .more-link {
+		margin-top: 0.8rem;
+	}
+
+	.post_layout_chess_3 .post_title {
+		@include font(20px, 24px);
+	}
+
+}
+
+
+@media #{$media_lg} {
+	/* Blog layout: Chess */
+	.post_layout_chess_1 .post_featured_bg:before {
+		padding-top: 100%;	/* 112.5% - 16:9 */
+	}
+	.post_layout_chess_1.post_format_aside .post_meta {
+		margin-top: 1rem;
+	}
+	.post_layout_chess_1 .post_header + .post_content {
+		margin-top:2rem;
+	}
+	.post_layout_chess.post_layout_chess_1 .more-link {
+		margin-top: 1rem;
+	}
+	.post_layout_chess_2.post_format_audio .mejs-time,
+	.post_layout_chess_3.post_format_audio .mejs-time {
+		display:none;
+	}
+
+	.post_layout_chess_2 .post_content {
+		display: none;
+	}
+	.post_layout_chess_2 .post_title {
+		@include font(20px, 26px);
+	}
+
+	.post_layout_chess_2.post_format_link .post_meta,
+	.post_layout_chess_2.post_format_status .post_meta,
+	.post_layout_chess_3.post_format_link .post_meta,
+	.post_layout_chess_3.post_format_status .post_meta {
+		margin-top:0;
+	}
+
+	.post_layout_chess_3 .post_title {
+		@include font(16px, 20px);
+	}
+	.post_layout_chess_3  .post_meta {
+		font-size: 13px;
+	}
+}
+
+
+@media #{$media_md} {
+	/* Blog layout: Chess */
+	.post_layout_chess .post_inner_content {
+		padding:0 10%;
+	}
+	.post_layout_chess.post_format_quote .post_header,
+	.post_layout_chess.post_format_link .post_header,
+	.post_layout_chess.post_format_aside .post_header,
+	.post_layout_chess.post_format_status .post_header {
+		display:none;
+	}
+	.post_layout_chess.post_format_quote .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_link .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_aside .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_status .post_content_inner + .post_meta {
+		display:block;
+	}
+	.post_layout_chess.post_format_quote .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_link .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_status .post_content_inner + .post_meta {
+		margin-top:0 !important;
+	}
+	.post_layout_chess.post_format_aside .post_content_inner + .post_meta {
+		margin-top: 1em;
+	}
+	.post_layout_chess .post_header + .post_content {
+		margin-top:1.2em;
+	}
+	.post_layout_chess .post_content_inner {
+		display:block;
+		padding-bottom: 0;
+	}
+	.post_layout_chess .post_content_inner,
+	.post_layout_chess:not(.post_format_quote):not(.post_format_link):not(.post_format_aside):not(.post_format_status) .post_content_inner {
+		max-height: none;
+	}
+	.post_layout_chess.post_format_chat .post_content_inner {
+		display: none;
+	}
+	.post_layout_chess .post_content_inner:after {
+		display:none;
+	}
+	.post_layout_chess.post_format_link .post_content_inner,
+	.post_layout_chess.post_format_aside .post_content_inner,
+	.post_layout_chess.post_format_status .post_content_inner {
+		font-size: 1.2em;
+	}
+	.post_layout_chess_1 .post_title,
+	.post_layout_chess_2 .post_title,
+	.post_layout_chess_3 .post_title {
+		@include font(22px, 26px);
+	}
+	.post_layout_chess_1 .post_meta,
+	.post_layout_chess_2 .post_meta,
+	.post_layout_chess_3 .post_meta {
+		@include font(14px, 18px);
+	}
+	.post_layout_chess_1 .post_title + .post_meta,
+	.post_layout_chess_2 .post_title + .post_meta,
+	.post_layout_chess_3 .post_title + .post_meta {
+		margin-top: 10px;
+	}
+
+	.post_layout_chess_3 .post_meta {
+		display: block;
+	}
+
+	.post_layout_chess_2 .post_content {
+		display: block;
+	}
+	.post_layout_chess.post_layout_chess_1 .more-link,
+	.post_layout_chess.post_layout_chess_2 .more-link,
+	.post_layout_chess.post_layout_chess_3 .more-link {
+		display: none;
+	}
+
+	.post_layout_chess_2 {									width: 100%; float:none; }
+	.post_layout_chess_2:nth-child(4n+3) .post_featured,
+	.post_layout_chess_2:nth-child(4n+4) .post_featured {	float:right; }
+	.post_layout_chess_2:nth-child(4n+3) .post_inner,
+	.post_layout_chess_2:nth-child(4n+4) .post_inner {		left: 0; right:auto; }
+	
+	.post_layout_chess_3 {									width: 100%; float:none; }
+	.post_layout_chess_3:nth-child(6n+4) .post_featured,
+	.post_layout_chess_3:nth-child(6n+5) .post_featured,
+	.post_layout_chess_3:nth-child(6n+6) .post_featured {	float:right; }
+	.post_layout_chess_3:nth-child(6n+4) .post_inner,
+	.post_layout_chess_3:nth-child(6n+5) .post_inner,
+	.post_layout_chess_3:nth-child(6n+6) .post_inner {		left: 0; right:auto; }
+	
+	.post_layout_chess:nth-child(2n+2) .post_featured {		float:left; }
+	.post_layout_chess:nth-child(2n+2) .post_inner {		left: auto; right:0; }
+}
+
+
+@media #{$media_sm} {
+	/* Blog layout: Chess */
+	.post_layout_chess .post_content_inner {
+		display:none !important;
+	}
+	.post_layout_chess.post_format_quote .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_link .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_aside .post_content_inner + .post_meta,
+	.post_layout_chess.post_format_status .post_content_inner + .post_meta {
+		display:none !important;
+	}
+	.post_layout_chess.post_format_quote .post_header,
+	.post_layout_chess.post_format_link .post_header,
+	.post_layout_chess.post_format_aside .post_header,
+	.post_layout_chess.post_format_status .post_header {
+		display:block;
+	}
+	.post_layout_chess.post_layout_chess_1 .more-link,
+	.post_layout_chess.post_layout_chess_2 .more-link,
+	.post_layout_chess.post_layout_chess_3 .more-link {
+		margin-top: 0;
+	}
+	.post_layout_chess_1 .post_title,
+	.post_layout_chess_2 .post_title,
+	.post_layout_chess_3 .post_title {
+		@include font(18px, 22px);
+	}
+	.post_layout_chess_1 .post_meta,
+	.post_layout_chess_2 .post_meta,
+	.post_layout_chess_3 .post_meta {
+		@include font(13px, 17px);
+	}
+	.post_layout_chess_1 .post_title + .post_meta,
+	.post_layout_chess_1 .post_title + .post_meta,
+	.post_layout_chess_1 .post_title + .post_meta {
+		margin-top:10px;
+	}
+
+}
+
+
+@media #{$media_xs} {
+	/* Blog layout: Chess */
+	.post_layout_chess .post_header {
+		display:block !important;
+	}
+	.post_layout_chess_1 .post_title,
+	.post_layout_chess_2 .post_title,
+	.post_layout_chess_3 .post_title {
+		@include font(15px, 21px);
+		letter-spacing:0;
+	}
+	.post_layout_chess .post_meta {
+		display:none !important;
+	}
+	.post_layout_chess .post_content {
+		display:none;
+	}
+	.post_layout_chess.post_format_audio .mejs-time {
+		display:none;
+	}
+}

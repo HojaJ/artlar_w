@@ -1,0 +1,43 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_md} {
+	/* Single post header */
+	.single_style_out-over-fullwidth.post_header_wrap .post_featured + .post_header {
+		min-width: 60%;
+		max-width: 70%;
+	}
+	.single_style_out-over-fullwidth.post_header_wrap .post_featured.post_featured_bg {
+		height: 30rem;
+	}
+}
+
+
+@media #{$media_sm} {
+	/* Single post header */
+	.single_style_out-over-fullwidth .page_content_wrap > .content_wrap {
+		padding-top: 3em;
+	}
+	.single_style_out-over-fullwidth.post_header_wrap {
+		margin-bottom: 3em;
+	}
+	.single_style_out-over-fullwidth.post_header_wrap .post_featured.post_featured_bg {
+		height: 20rem;
+	}
+}
+
+
+@media #{$media_xs} {
+    /* Single post header */
+	.single_style_out-over-fullwidth .page_content_wrap > .content_wrap {
+		padding-top: 2em;
+	}
+	.single_style_out-over-fullwidth.post_header_wrap {
+		margin-bottom: 2em;
+	}
+	.single_style_out-over-fullwidth.post_header_wrap .post_featured + .post_header {
+		min-width: 95%;
+		max-width: 95%;
+	}
+}

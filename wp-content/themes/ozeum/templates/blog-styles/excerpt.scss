@@ -1,0 +1,63 @@
+/* Blog layout: Excerpt 
+------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+.post_layout_excerpt {
+	position:relative;
+	margin-bottom: 3.7em;
+	padding-bottom: 3.7em;
+	border-bottom: 1px solid #ddd;
+}
+.post_layout_excerpt:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: none;
+}
+.post_layout_excerpt.sticky .post_wrapper {
+	padding: 3.15em 3.5em 4em;
+}
+.post_layout_excerpt.sticky .post_featured {
+	margin-bottom: 0;
+}
+
+.post_layout_excerpt .post_featured {
+	display: inline-block;
+	margin-bottom:  2.25em;
+}
+.post_layout_excerpt.post_format_audio .post_featured.without_thumb,
+.post_layout_excerpt.post_format_gallery .post_featured.without_thumb {
+	display:block;
+}
+.post_layout_excerpt .post_header {
+	margin: 0;
+	position:relative;
+}
+.post_layout_excerpt .post_header .post_price {
+	width: auto;
+	@include abs-rt;
+	@include font(2.5em, 1.5em);
+}
+.post_layout_excerpt .post_title {
+	@include font(1.875em, 1.235em, 800);
+	margin: 0;
+}
+.post_layout_excerpt .post_meta {
+	margin-top: 0;
+}
+.post_layout_excerpt .post_title + .post_meta {
+	margin-top: 0.6rem;
+}
+.post_layout_excerpt .post_header + .post_content {
+	margin-top: 1.75rem;
+}
+.post_layout_excerpt.post_format_quote blockquote {
+	margin: 0;
+}
+
+// First post large in the Classic and Masonry
+body[class*="blog_style_classic"] .post_layout_excerpt,
+body[class*="blog_style_masonry"] .post_layout_excerpt {
+	margin-bottom: 3em;
+}

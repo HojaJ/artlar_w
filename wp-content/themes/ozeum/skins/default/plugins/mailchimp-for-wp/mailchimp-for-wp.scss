@@ -1,0 +1,80 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_theme-vars.scss";
+
+form.mc4wp-form .mc4wp-form-fields {
+	text-align: center;
+}
+form.mc4wp-form .mc4wp-form-fields .mc4wp-form-wrap {
+	position: relative;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	@include border-box;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	@include border-radius(40px);
+	padding-right: 6em;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:not(output):-moz-ui-invalid {
+	@include box-shadow(none);
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:-webkit-autofill,
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:-webkit-autofill:hover,
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:-webkit-autofill:focus,
+form.mc4wp-form .mc4wp-form-fields input[type="email"]:-webkit-autofill:active {
+	@include transition(background-color 50000s ease-in-out 90000s, color 50000s ease-in-out 90000s !important );
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 2em;
+	padding-right: 2em;
+	@include border-radius(40px);
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"] + input[type="submit"] {
+	@include abs-rc;
+	max-width: 8em;
+}
+
+form.mc4wp-form .mc4wp-form-fields button {
+	@include abs-rc(1.6em);
+	width: 5em;
+	padding: 0;
+	@include border-radius(0);
+}
+form.mc4wp-form .mc4wp-form-fields button:after {
+	font-size: 3.2em;
+	font-weight: 400;
+	display: block;
+	content: '\e9a7';
+	font-family: $theme_icons;
+	@include transition(color .3s ease);
+}
+.ua_ie form.mc4wp-form .mc4wp-form-fields button:after {
+	font-size: 2.3rem;
+}
+form.mc4wp-form input[type="checkbox"] + label {
+	margin-top: 15px;
+}
+
+form.mc4wp-form .mc4wp-alert {
+	text-align: center;
+	margin: 1.5em 0;
+	padding: 0.8em 1.4em;
+	line-height:1.5em;
+	border: 1px solid #ddd;
+	@include border-radius(40px);
+}
+
+form.mc4wp-form p {
+	margin: 0;
+}
+
+form.mc4wp-form p + p,
+form.mc4wp-form input + p {
+	margin-top: 1em;
+}

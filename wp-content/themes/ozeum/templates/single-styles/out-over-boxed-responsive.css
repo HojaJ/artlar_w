@@ -1,0 +1,20 @@
+@media (max-width: 1023px) {
+  /* Single post header */
+  .single_style_out-over-boxed.post_header_wrap .post_featured + .post_header {
+    min-width: 60%;
+    max-width: 70%;
+  }
+}
+@media (max-width: 479px) {
+  /* Single post header */
+  .single_style_out-over-boxed.post_header_wrap {
+    margin-bottom: 2em;
+  }
+
+  .single_style_out-over-boxed.post_header_wrap .post_featured + .post_header {
+    min-width: 95%;
+    max-width: 95%;
+  }
+}
+
+/*# sourceMappingURL=out-over-boxed-responsive.css.map */

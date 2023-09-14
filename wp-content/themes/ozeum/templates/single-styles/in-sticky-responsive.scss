@@ -1,0 +1,43 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_md} {
+    /* Single post header */
+	.single_style_in-sticky.post_header_wrap .post_featured + .post_header {
+		min-width: 60%;
+		max-width: 70%;
+	}
+}
+
+
+@media #{$media_sm} {
+    /* Single post header */
+	.single_style_in-sticky.post_header_wrap .post_featured + .post_header {
+		min-width: 80%;
+		max-width: 80%;
+		padding: 1.5em;
+	}
+}
+
+
+@media #{$media_xs} {
+    /* Single post header */
+	.single_style_in-sticky.post_header_wrap {
+		margin-bottom: 2em;
+	}
+	.single_style_in-sticky.post_header_wrap .post_featured {
+		margin-bottom:  0;
+	}
+	.single_style_in-sticky.post_header_wrap .post_featured + .post_header {
+		position: static !important;
+		text-align: left !important;
+		@include transform(none !important);
+		min-width: 0;
+		max-width: none;
+		background-color: transparent;
+		padding: 0;
+		border: none;
+		margin-top: 2em;
+	}
+}

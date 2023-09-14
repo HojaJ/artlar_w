@@ -1,0 +1,23 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_md} {
+    /* Single post header */
+	.single_style_out-over-boxed.post_header_wrap .post_featured + .post_header {
+		min-width: 60%;
+		max-width: 70%;
+	}
+}
+
+
+@media #{$media_xs} {
+    /* Single post header */
+	.single_style_out-over-boxed.post_header_wrap {
+		margin-bottom: 2em;
+	}
+	.single_style_out-over-boxed.post_header_wrap .post_featured + .post_header {
+		min-width: 95%;
+		max-width: 95%;
+	}
+}

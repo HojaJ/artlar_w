@@ -1,0 +1,37 @@
+.ozeum_upgrade_skins_button[disabled],
+.ozeum_upgrade_skins_button[disabled]:hover,
+.ozeum_upgrade_skins_button[disabled]:focus {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.ozeum_upgrade_skins_status_wrap {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.ozeum_upgrade_skins_status:before {
+  font-family: "fontello";
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ozeum_upgrade_skins_status_progress:before {
+  content: '\e969';
+  color: #11a0d2;
+  -webkit-animation: spin 2s infinite linear;
+  -ms-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+.ozeum_upgrade_skins_status_success:before {
+  content: '\e986';
+  color: #38bb7a;
+}
+
+.ozeum_upgrade_skins_status_error:before {
+  content: '\e987';
+  color: #f04c49;
+}
+
+/*# sourceMappingURL=skins-admin.css.map */

@@ -1,0 +1,84 @@
+.trx_popup_options_form .trx_popup_options_title {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: 500;
+  margin: 1em 20px 0 0;
+  padding: 1em 0; }
+
+.trx_popup_options_form form {
+  padding: 3.5em;
+  border: 1px solid #dee0e3;
+  background-color: #fff; }
+  .trx_popup_options_form form h2 {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0;
+    padding: 15px;
+    border: 1px solid #dee0e3 !important;
+    background-color: #ebeced;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s; }
+    .trx_popup_options_form form h2:hover {
+      background-color: #dadada; }
+  .trx_popup_options_form form .form-table-wrap:not(:last-of-type) {
+    display: none; }
+  .trx_popup_options_form form table + h2 {
+    border-top: 1px solid #e7e9ec;
+    padding-top: 1em;
+    margin-top: 0.83em; }
+  .trx_popup_options_form form input[type="text"],
+  .trx_popup_options_form form select {
+    width: 800px;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .trx_popup_options_form form input[type="date"],
+  .trx_popup_options_form form input[type="time"],
+  .trx_popup_options_form form input[type="number"],
+  .trx_popup_options_form form input[type="range"] {
+    width: 150px;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .trx_popup_options_form form textarea {
+    width: 100%; }
+  .trx_popup_options_form form .submit {
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  .trx_popup_options_form form span:not(.mce-txt) {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9099a2;
+    font-style: italic; }
+    .trx_popup_options_form form span:not(.mce-txt).wp-media-buttons-icon {
+      display: inline-block; }
+  .trx_popup_options_form form .upload > img.hide {
+    display: none; }
+  .trx_popup_options_form form .range_slider_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .trx_popup_options_form form .range_slider_wrap .range_slider_min {
+      margin: 0 10px 0 0; }
+    .trx_popup_options_form form .range_slider_wrap .range_slider_max {
+      margin: 0 0 0 10px; }
+  .trx_popup_options_form form .range_slider {
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; }
+    .trx_popup_options_form form .range_slider .range_slider_runner {
+      position: absolute;
+      top: -2em; }
